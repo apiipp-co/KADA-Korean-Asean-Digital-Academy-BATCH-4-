@@ -550,8 +550,3 @@ if st.button("🔍  Analisis & Prediksi Segmen"):
 
     except Exception as e:
         st.error(f"Prediction Error: {e}")
-
-# ── Footer ────────────────────────────────────────────────────────────────────
-
-st.markdown("---")
-st.caption("Final Project — Airline Passenger Segmentation  ·  K-Means + PCA")
